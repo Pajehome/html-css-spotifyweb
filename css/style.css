@@ -11,8 +11,7 @@
 }
 .wrapper-content{
     width: 100%;
-    height: calc(100% - 90px);
-    background-color: blue;
+    height: calc(100% - 80px);
     display: flex;
 }
 aside{
@@ -109,7 +108,7 @@ aside ul{
 main{
     width: calc(100% - 260px);
     height: 100%;
-    background-color: violet;
+   
 }
 nav.top{
     position: fixed;
@@ -118,7 +117,7 @@ nav.top{
     z-index: 1000;
     background-color: rgb(0, 0, 0, 0.3);
     display: flex;
-    height: 90px;
+    height: 50px;
     align-items: center;
     right: 0;
     justify-content: flex-end;
@@ -139,11 +138,103 @@ nav.top{
 .main-content{
     width: 100%;
     height: 100%;
-    padding-top: 90px;
+    padding-top: 50px;
     overflow-y: auto;
+    padding-left: 20px;
+    background-color: rgb(26, 24, 24);
+}
+.main-content ul{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.main-content ul li{
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    color: gray;
+}
+.main-content h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-top: 5px;
+}
+.main-content .row{
+    padding-top: 8px;
+    width: 100%;
+    height: 281px;
+    display: flex;
+    
+}
+.card{
+    width: calc((100% / 6) - 20px);
+    margin-right: 17px;
+    
+}
+.song-img1{
+    background-image: url(/img/metal_lifting.jpg);
+    height: 181px;
+    background-size: contain;
+}
+.song-img2{
+    background-image: url(/img/stranger.jpeg);
+    height: 181px;
+    background-size: contain;
+}
+.song-img3{
+    background-image: url(/img/aquietplace.jpeg);
+    height: 181px;
+    background-size: contain;
+}
+.song-img4{
+    background-image: url(/img/split.jpeg);
+    height: 181px;
+    background-size: contain;
+}
+.song-img5{
+    background-image: url(/img/cure.jpeg);
+    height: 181px;
+    background-size: contain;
+}
+.song-img6{
+    background-image: url(/img/sinister.jpeg);
+    height: 181px;
+    background-size: contain;
+}
+.song-name h3{
+    color: white;
+    font-size: 15px;
+    padding-top: 8px;
+    text-align: center;
+}
+.song-name p{
+    color: gray;
+    font-size: 13px;
+    padding-top: 5px;
+    text-align: center;
+}
+.main-content p{
+    color: gray;
+    font-size: 12px;
+    padding-top: 8px;     
+}
+.radar{
+    display: inline-block;
+    width: 181px;
+    height: 181px;
+    border: 1px solid black;
+}
+.mix{
+    display: inline-block;
+    width: 181px;
+    height: 181px;
+    border: 1px solid black;
 }
 footer{
-    height: 90px;
+    height: 80px;
     width: 100%;
     background-color: #282828;
     position: fixed;
