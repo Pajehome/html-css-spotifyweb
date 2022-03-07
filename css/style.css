@@ -19,6 +19,8 @@ aside{
     width: 260px;
     background-color: rebeccapurple;
     padding: 10px;
+    height: 100%;
+    
 }
 .logo{
     width: 150px;
@@ -34,6 +36,7 @@ aside{
     margin-left: -9px;
     padding-left: 9px;
     margin-bottom: 7px;
+    font-weight: bold;
 }
 .h-l-s-svg{
     width: 25px;
@@ -45,7 +48,63 @@ aside h2{
     color: white;
     text-transform: uppercase;
     padding-top: 10px;
+    padding-bottom: 8px;
 }
+.add-playlist{
+    padding: 0px 14px;
+    font-size: 34px;
+    background-color: gray;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.add-playlist-text{
+    padding-left: 8px;
+    color: gray;
+    font-weight: bold;
+}
+aside ul{
+    padding-top: 10px;
+    color: gray;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+    height: 100px;
+    
+}
+.download{
+    width: 90%;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: flex-end;
+}
+.down{
+    font-size: 13px;
+    font-weight: bold;
+    color: gray;    
+}
+.down svg{
+    width: 18px;
+    vertical-align: middle;
+    opacity: 0.5;
+}
+.profile{
+   color: rgb(255, 255, 255);
+   font-weight: bold;
+   display: inline-block;
+   margin-top: 12px;
+}
+.profile-svg{
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
 main{
     width: calc(100% - 260px);
     height: 100%;
