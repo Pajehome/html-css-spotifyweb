@@ -71,7 +71,7 @@ aside ul{
 }
 .flex{
     display: flex;
-    height: 100px;
+    height: 120px;
     
 }
 .download{
@@ -95,7 +95,7 @@ aside ul{
    color: rgb(255, 255, 255);
    font-weight: bold;
    display: inline-block;
-   margin-top: 12px;
+   margin-top: 15px;
 }
 .profile-svg{
     width: 25px;
@@ -121,7 +121,7 @@ nav.top{
     align-items: center;
     right: 0;
     justify-content: flex-end;
-    padding-right: 5px;
+    padding-right: 25px;
 }
 
 .btn{
@@ -160,7 +160,7 @@ nav.top{
     font-size: 20px;
     font-weight: bold;
     color: white;
-    padding-top: 5px;
+    padding-top: 40px;
 }
 .main-content .row{
     padding-top: 8px;
@@ -224,14 +224,80 @@ nav.top{
 .radar{
     display: inline-block;
     width: 181px;
-    height: 181px;
-    border: 1px solid black;
+    height: 211px;
 }
-.mix{
-    display: inline-block;
+.radar-img{
     width: 181px;
     height: 181px;
-    border: 1px solid black;
+    background-image: url(/img/radar.jpeg);
+    background-size: contain;
+}
+.mix{
+    padding-top: 25px;
+    display: inline-block;
+    width: 181px;
+    height: 211px;
+}
+
+.mix-img{
+    margin-left: 10px;
+    width: 181px;
+    height: 181px;
+    background-image: url(/img/mixdaily.jpeg);
+    background-size: contain;
+}
+
+.radar h3{
+    color: white;
+    font-size: 15px;
+    padding-top: 8px;
+    text-align: center;
+}
+.mix h3{
+    color: white;
+    font-size: 15px;
+    padding-top: 8px;
+    text-align: center;
+}
+.lana{
+    display: inline-block;
+    width: 181px;
+    height: 211px;
+}
+.lana-img{
+    width: 181px;
+    height: 181px;
+    background-image: url(/img/youg.jpeg);
+    background-size: contain;
+    border-radius: 50%;
+}
+.einaudi{
+    padding-top: 25px;
+    display: inline-block;
+    width: 181px;
+    height: 211px;
+}
+
+.einaudi-img{
+    margin-left: 10px;
+    width: 181px;
+    height: 181px;
+    background-image: url(/img/einaudi.jpeg);
+    background-size: contain;
+    border-radius: 50%;
+}
+
+.lana h3{
+    color: white;
+    font-size: 15px;
+    padding-top: 8px;
+    text-align: center;
+}
+.einaudi h3{
+    color: white;
+    font-size: 15px;
+    padding-top: 8px;
+    text-align: center;
 }
 footer{
     height: 80px;
