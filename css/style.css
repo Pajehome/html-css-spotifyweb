@@ -24,6 +24,11 @@ aside{
 .logo{
     width: 150px;
 }
+.spotify img{
+    width: 28px;
+    filter: invert(1);
+    display: none;
+}
 .hls{
     padding-top: 20px;
 }
@@ -36,6 +41,9 @@ aside{
     padding-left: 9px;
     margin-bottom: 7px;
     font-weight: bold;
+}
+.h-l-s p{
+    display: inline-block;
 }
 .h-l-s:hover{
     color: white;
@@ -116,6 +124,10 @@ aside ul li:hover{
    font-weight: bold;
    display: inline-block;
    margin-top: 6px;
+}
+.profile p{
+    display: inline-block;
+    padding-left: 5px;
 }
 .profile-svg{
     width: 25px;
@@ -202,11 +214,12 @@ nav.top{
     height: 18vw;
     display: flex;
     gap: 20px;
+    
 }
 .card{
     width: calc((100% / 6) - 20px);
     position: relative;
-    padding-right: 20px;
+    
 }
 .song-img1{
     background-image: url(/img/metal_lifting.jpg);
@@ -271,17 +284,19 @@ nav.top{
     font-size: 1vw;
     padding-top: 8px;
     text-align: center;
+    width: 12vw;
 }
 .song-name p{
     color: gray;
     font-size: 1vw;
     padding-top: 5px;
     text-align: center;
+    width: 12vw;
 }
 .main-content p{
     color: gray;
-    font-size: 12px;
-    padding-top: 8px;     
+    font-size: .9vw;
+    padding-top: 6px;     
 }
 .ramix{
    margin-top: 15px;
@@ -540,3 +555,500 @@ footer{
 .audio-bar-right .hrr .circle-right:hover{
    opacity: 1;
 }
+
+
+@media screen and (max-width:1200px){
+    .main-content .row{
+        padding-top: 8px;
+        width: 100%;
+        height: 39vw;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .card{
+        width: calc((100% / 4) - 20px);
+        position: relative;
+        padding-right: 20px;
+    }
+    .song-img1{
+        background-image: url(/img/metal_lifting.jpg);
+        height: 15vw;
+        width: 15vw;
+        background-size: 100%;
+    }
+    .song-img2{
+        background-image: url(/img/stranger.jpeg);
+        height: 15vw;
+        width: 15vw;
+        background-size: 100%;
+    }
+    .song-img3{
+        background-image: url(/img/aquietplace.jpeg);
+        width: 15vw;
+        height: 15vw;
+        background-size: 100%;
+    }
+    .song-img4{
+        background-image: url(/img/split.jpeg);
+        height: 15vw;
+        width: 15vw;
+        background-size: 100%;
+    }
+    .song-img5{
+        background-image: url(/img/cure.jpeg);
+        height: 15vw;
+        width: 15vw;
+        background-size: 100%;
+    }
+    .song-img6{
+        background-image: url(/img/sinister.jpeg);
+        height: 15vw;
+        width: 15vw;
+        background-size: 100%;
+    }
+    .song-overlay{
+        width: 100%;
+        height: 15vw;
+        width: 15vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgb(0, 0, 0, 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .song-overlay:hover{
+        opacity: 1;
+    }
+    .song-overlay .fa-circle-play{
+        font-size: 50px;
+        color: white;
+    }
+    
+    .song-name h3{
+        color: white;
+        font-size: 1vw;
+        padding-top: 8px;
+        text-align: center;
+        width: 15vw;
+    }
+    .song-name p{
+        color: gray;
+        font-size: 1vw;
+        padding-top: 5px;
+        text-align: center;
+        width: 15vw;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .main-content ul{
+        list-style: none;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main-content .row{
+        padding-top: 8px;
+        width: 100%;
+        height: 39vw;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .card{
+        width: calc((100% / 4) - 20px);
+        position: relative;
+        padding-right: 20px;
+    }
+    .song-img1{
+        background-image: url(/img/metal_lifting.jpg);
+        height: 15vw;
+        width: 15vw;
+        background-size: 100%;
+    }
+    .song-img2{
+        background-image: url(/img/stranger.jpeg);
+        height: 15vw;
+        width: 15vw;
+        background-size: 100%;
+    }
+    .song-img3{
+        background-image: url(/img/aquietplace.jpeg);
+        width: 15vw;
+        height: 15vw;
+        background-size: 100%;
+    }
+    .song-img4{
+        background-image: url(/img/split.jpeg);
+        height: 15vw;
+        width: 15vw;
+        background-size: 100%;
+    }
+    .song-img5{
+        background-image: url(/img/cure.jpeg);
+        height: 15vw;
+        width: 15vw;
+        background-size: 100%;
+    }
+    .song-img6{
+        background-image: url(/img/sinister.jpeg);
+        height: 15vw;
+        width: 15vw;
+        background-size: 100%;
+    }
+    .song-overlay{
+        width: 100%;
+        height: 15vw;
+        width: 15vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgb(0, 0, 0, 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .song-overlay:hover{
+        opacity: 1;
+    }
+    .song-overlay .fa-circle-play{
+        font-size: 50px;
+        color: white;
+    }
+    
+    .song-name h3{
+        color: white;
+        font-size: 1vw;
+        padding-top: 8px;
+        text-align: center;
+        width: 15vw;
+    }
+    .song-name p{
+        color: gray;
+        font-size: 1vw;
+        padding-top: 5px;
+        text-align: center;
+        width: 15vw;
+    }
+}
+
+@media screen and (max-width:780px){
+    
+    .main-content .row{
+        padding-top: 8px;
+        width: 100%;
+        height: 93vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: calc((100% / 2) - 20px);
+        position: relative;
+    }
+    .song-img1{
+        background-image: url(/img/metal_lifting.jpg);
+        height: 23vw;
+        width: 23vw;
+        background-size: 100%;
+    }
+    .song-img2{
+        background-image: url(/img/stranger.jpeg);
+        height: 23vw;
+        width: 23vw;
+        background-size: 100%;
+    }
+    .song-img3{
+        background-image: url(/img/aquietplace.jpeg);
+        width: 23vw;
+        height: 23vw;
+        background-size: 100%;
+    }
+    .song-img4{
+        background-image: url(/img/split.jpeg);
+        height: 23vw;
+        width: 23vw;
+        background-size: 100%;
+    }
+    .song-img5{
+        background-image: url(/img/cure.jpeg);
+        height: 23vw;
+        width: 23vw;
+        background-size: 100%;
+    }
+    .song-img6{
+        background-image: url(/img/sinister.jpeg);
+        height: 23vw;
+        width: 23vw;
+        background-size: 100%;
+    }
+    .song-overlay{
+        width: 100%;
+        height: 23vw;
+        width: 23vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgb(0, 0, 0, 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .song-overlay:hover{
+        opacity: 1;
+    }
+    .song-overlay .fa-circle-play{
+        font-size: 50px;
+        color: white;
+    }
+    
+    .song-name h3{
+        color: white;
+        font-size: 1vw;
+        padding-top: 8px;
+        text-align: center;
+        width: 23vw;
+    }
+    .song-name p{
+        color: gray;
+        font-size: 1vw;
+        padding-top: 5px;
+        text-align: center;
+        width: 23vw;
+    }
+}
+
+@media screen and (max-width:600px){
+    
+    .main-content .row{
+        padding-top: 8px;
+        width: 100%;
+        height: 130vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: calc((100% / 2) - 20px);
+        position: relative;
+    }
+    .song-img1{
+        background-image: url(/img/metal_lifting.jpg);
+        height: 35vw;
+        width: 35vw;
+        background-size: 100%;
+    }
+    .song-img2{
+        background-image: url(/img/stranger.jpeg);
+        height: 35vw;
+        width: 35vw;
+        background-size: 100%;
+    }
+    .song-img3{
+        background-image: url(/img/aquietplace.jpeg);
+        width: 35vw;
+        height: 35vw;
+        background-size: 100%;
+    }
+    .song-img4{
+        background-image: url(/img/split.jpeg);
+        height: 35vw;
+        width: 35vw;
+        background-size: 100%;
+    }
+    .song-img5{
+        background-image: url(/img/cure.jpeg);
+        height: 35vw;
+        width: 35vw;
+        background-size: 100%;
+    }
+    .song-img6{
+        background-image: url(/img/sinister.jpeg);
+        height: 35vw;
+        width: 35vw;
+        background-size: 100%;
+    }
+    .song-overlay{
+        width: 100%;
+        height: 35vw;
+        width: 35vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgb(0, 0, 0, 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .song-overlay:hover{
+        opacity: 1;
+    }
+    .song-overlay .fa-circle-play{
+        font-size: 50px;
+        color: white;
+    }
+    
+    .song-name h3{
+        color: white;
+        font-size: 1vw;
+        padding-top: 8px;
+        text-align: center;
+        width: 35vw;
+    }
+    .song-name p{
+        color: gray;
+        font-size: 1vw;
+        padding-top: 5px;
+        text-align: center;
+        width: 35vw;
+    }
+    aside{
+        width: 50px;
+        background-color: black;
+        padding: 10px;
+        height: 100%;
+        
+    }
+    .logo{
+        width: 150px;
+        display: none;
+    }
+    .spotify img{
+        width: 28px;
+        filter: invert(1);
+        display: block;
+    }
+    .hls{
+        padding-top: 10px;
+    }
+    .h-l-s p{
+        display: none;
+    }
+    .h-l-s-svg:hover{
+        opacity: 0.5;
+    }  
+    .h-l-s-svg{
+        display: block;
+        width: 25px;
+        vertical-align: middle;
+        opacity: 1;
+    }
+    
+    aside h2{
+        font-size: 16px;
+        color: white;
+        text-transform: uppercase;
+        padding-top: 10px;
+        padding-bottom: 8px;
+        display: none;
+    }
+    .add-playlist{
+        padding: 0px 14px;
+        font-size: 34px;
+        background-color: gray;
+        font-weight: bold;
+        vertical-align: middle;
+        display: none;
+    }
+    .add-playlist-text{
+        padding-left: 8px;
+        color: gray;
+        font-weight: bold;
+        display: none;
+    }
+    .playlist span:hover{
+        color: white;
+        display: none;
+    }
+    aside ul{
+        padding-top: 10px;
+        color: gray;
+        line-height: 30px;
+        font-size: 13px;
+        font-weight: bold;
+        list-style-type: none;
+        display: none;
+    }
+    aside ul li:hover{
+        color: white;
+    
+    }
+    .flex{
+        display: flex;
+        height: calc(100vh - 260px)
+        
+    }
+    .download{
+        width: 90%;
+        padding-bottom: 5px;
+        display: flex;
+        align-items: flex-end;
+        border-bottom: 0px;
+    }
+    .down{
+        font-size: 13px;
+        font-weight: bold;
+        color: gray;    
+    }
+    .down p{
+        display: none;
+    }
+    .down svg{
+        width: 18px;
+        vertical-align: middle;
+        opacity: 0.5;
+    }
+    .down:hover{
+        color: white;
+    }
+    .down, svg:hover{
+        opacity: 2.5;
+    }
+    .profile{
+       color: rgb(255, 255, 255);
+       font-weight: bold;
+       display: inline-block;
+       margin-top: 6px;
+    }
+    .profile p{
+        display: none;
+    }
+    .profile-svg{
+        width: 25px;
+        height: 25px;
+        background-color: gray;
+        border-radius: 50%;
+        vertical-align: middle;
+    }
+    
+    main{
+        width: calc(100% - 50px);
+        height: 100%;
+       
+    }
+    nav.top{
+        position: fixed;
+        top: 0;
+        left: 50px;
+        z-index: 1000;
+        background-color: rgb(0, 0, 0, 0.3);
+        display: flex;
+        height: 50px;
+        align-items: center;
+        right: 0;
+        justify-content: flex-end;
+        padding-right: 25px;
+    }
+}
+
+
