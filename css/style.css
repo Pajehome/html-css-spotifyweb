@@ -199,48 +199,55 @@ nav.top{
 .main-content .row{
     padding-top: 8px;
     width: 100%;
-    height: 281px;
+    height: 18vw;
     display: flex;
-    
+    gap: 20px;
 }
 .card{
     width: calc((100% / 6) - 20px);
-    margin-right: 17px;
     position: relative;
+    padding-right: 20px;
 }
 .song-img1{
     background-image: url(/img/metal_lifting.jpg);
-    height: 181px;
+    height: 11vw;
+    width: 12vw;
     background-size: 100%;
 }
 .song-img2{
     background-image: url(/img/stranger.jpeg);
-    height: 181px;
+    height: 11vw;
+    width: 12vw;
     background-size: 100%;
 }
 .song-img3{
     background-image: url(/img/aquietplace.jpeg);
-    height: 181px;
+    width: 12vw;
+    height: 11vw;
     background-size: 100%;
 }
 .song-img4{
     background-image: url(/img/split.jpeg);
-    height: 181px;
+    height: 11vw;
+    width: 12vw;
     background-size: 100%;
 }
 .song-img5{
     background-image: url(/img/cure.jpeg);
-    height: 181px;
+    height: 11vw;
+    width: 12vw;
     background-size: 100%;
 }
 .song-img6{
     background-image: url(/img/sinister.jpeg);
-    height: 181px;
+    height: 11vw;
+    width: 12vw;
     background-size: 100%;
 }
 .song-overlay{
     width: 100%;
-    height: 181px;
+    height: 11vw;
+    width: 12vw;
     position: absolute;
     top: 0;
     left: 0;
@@ -261,13 +268,13 @@ nav.top{
 
 .song-name h3{
     color: white;
-    font-size: 15px;
+    font-size: 1vw;
     padding-top: 8px;
     text-align: center;
 }
 .song-name p{
     color: gray;
-    font-size: 13px;
+    font-size: 1vw;
     padding-top: 5px;
     text-align: center;
 }
@@ -276,84 +283,97 @@ nav.top{
     font-size: 12px;
     padding-top: 8px;     
 }
-.radar{
-    display: inline-block;
-    width: 181px;
-    height: 211px;
+.ramix{
+   margin-top: 15px;
+   height: 17vw;
+   display: inline-block;
+   position: relative;
 }
+
 .radar-img{
-    width: 181px;
-    height: 181px;
+    width: 15vw;
+    height: 15vw;
     background-image: url(/img/radar.jpeg);
     background-size: contain;
-}
-.mix{
-    padding-top: 25px;
     display: inline-block;
-    width: 181px;
-    height: 211px;
+    position: relative;
 }
+
 
 .mix-img{
-    margin-left: 10px;
-    width: 181px;
-    height: 181px;
+    width: 15vw;
+    height: 15vw;
     background-image: url(/img/mixdaily.jpeg);
     background-size: contain;
-}
-
-.radar h3{
-    color: white;
-    font-size: 15px;
-    padding-top: 8px;
-    text-align: center;
-}
-.mix h3{
-    color: white;
-    font-size: 15px;
-    padding-top: 8px;
-    text-align: center;
-}
-.lana{
     display: inline-block;
-    width: 181px;
-    height: 211px;
+    position: relative;
+    margin-left: 15px;
 }
-.lana-img{
-    width: 181px;
-    height: 181px;
-    background-image: url(/img/youg.jpeg);
-    background-size: contain;
-    border-radius: 50%;
-}
-.einaudi{
-    padding-top: 25px;
+
+.radar-img h3{
+    color: white;
+    font-size: 1vw;
     display: inline-block;
-    width: 181px;
-    height: 211px;
+    position: absolute;
+    bottom: -2vw;
+    left: 4vw;
+    
 }
-
-.einaudi-img{
-    margin-left: 10px;
-    width: 181px;
-    height: 181px;
-    background-image: url(/img/einaudi.jpeg);
-    background-size: contain;
-    border-radius: 50%;
-}
-
-.lana h3{
+.mix-img h3{
     color: white;
-    font-size: 15px;
-    padding-top: 8px;
-    text-align: center;
+    font-size: 1vw;
+    display: inline-block;
+    position: absolute;
+    bottom: -2vw;
+    left: 5vw;
+    
 }
-.einaudi h3{
-    color: white;
-    font-size: 15px;
-    padding-top: 8px;
-    text-align: center;
-}
+.laei{
+    margin-top: 15px;
+    height: 17vw;
+    display: inline-block;
+    position: relative;
+ }
+ 
+ .lana-img{
+     width: 15vw;
+     height: 15vw;
+     background-image: url(/img/youg.jpeg);
+     background-size: contain;
+     display: inline-block;
+     position: relative;
+     border-radius: 50%;
+ }
+ .einaudi-img{
+     width: 15vw;
+     height: 15vw;
+     background-image: url(/img/einaudi.jpeg);
+     background-size: contain;
+     display: inline-block;
+     position: relative;
+     margin-left: 15px;
+     border-radius: 50%;
+ }
+ 
+ .lana-img h3{
+     color: white;
+     font-size: 1vw;
+     display: inline-block;
+     position: absolute;
+     bottom: -2vw;
+     left: 4vw;
+     
+ }
+ .einaudi-img h3{
+     color: white;
+     font-size: 1vw;
+     display: inline-block;
+     position: absolute;
+     bottom: -2vw;
+     left: 4vw;
+     
+ }
+
 footer{
     height: 80px;
     width: 100%;
@@ -520,4 +540,3 @@ footer{
 .audio-bar-right .hrr .circle-right:hover{
    opacity: 1;
 }
-
