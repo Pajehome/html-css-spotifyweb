@@ -222,37 +222,37 @@ nav.top{
     
 }
 .song-img1{
-    background-image: url(/img/metal_lifting.jpg);
+    background-image: url(../img/metal_lifting.jpg);
     height: 11vw;
     width: 12vw;
     background-size: 100%;
 }
 .song-img2{
-    background-image: url(/img/stranger.jpeg);
+    background-image: url(../img/stranger.jpeg);
     height: 11vw;
     width: 12vw;
     background-size: 100%;
 }
 .song-img3{
-    background-image: url(/img/aquietplace.jpeg);
+    background-image: url(../img/aquietplace.jpeg);
     width: 12vw;
     height: 11vw;
     background-size: 100%;
 }
 .song-img4{
-    background-image: url(/img/split.jpeg);
+    background-image: url(../img/split.jpeg);
     height: 11vw;
     width: 12vw;
     background-size: 100%;
 }
 .song-img5{
-    background-image: url(/img/cure.jpeg);
+    background-image: url(../img/cure.jpeg);
     height: 11vw;
     width: 12vw;
     background-size: 100%;
 }
 .song-img6{
-    background-image: url(/img/sinister.jpeg);
+    background-image: url(../img/sinister.jpeg);
     height: 11vw;
     width: 12vw;
     background-size: 100%;
@@ -308,7 +308,7 @@ nav.top{
 .radar-img{
     width: 15vw;
     height: 15vw;
-    background-image: url(/img/radar.jpeg);
+    background-image: url(../img/radar.jpeg);
     background-size: contain;
     display: inline-block;
     position: relative;
@@ -318,7 +318,7 @@ nav.top{
 .mix-img{
     width: 15vw;
     height: 15vw;
-    background-image: url(/img/mixdaily.jpeg);
+    background-image: url(../img/mixdaily.jpeg);
     background-size: contain;
     display: inline-block;
     position: relative;
@@ -353,7 +353,7 @@ nav.top{
  .lana-img{
      width: 15vw;
      height: 15vw;
-     background-image: url(/img/youg.jpeg);
+     background-image: url(../img/youg.jpeg);
      background-size: contain;
      display: inline-block;
      position: relative;
@@ -362,7 +362,7 @@ nav.top{
  .einaudi-img{
      width: 15vw;
      height: 15vw;
-     background-image: url(/img/einaudi.jpeg);
+     background-image: url(../img/einaudi.jpeg);
      background-size: contain;
      display: inline-block;
      position: relative;
@@ -572,37 +572,37 @@ footer{
         padding-right: 20px;
     }
     .song-img1{
-        background-image: url(/img/metal_lifting.jpg);
+        background-image: url(../img/metal_lifting.jpg);
         height: 15vw;
         width: 15vw;
         background-size: 100%;
     }
     .song-img2{
-        background-image: url(/img/stranger.jpeg);
+        background-image: url(../img/stranger.jpeg);
         height: 15vw;
         width: 15vw;
         background-size: 100%;
     }
     .song-img3{
-        background-image: url(/img/aquietplace.jpeg);
+        background-image: url(../img/aquietplace.jpeg);
         width: 15vw;
         height: 15vw;
         background-size: 100%;
     }
     .song-img4{
-        background-image: url(/img/split.jpeg);
+        background-image: url(../img/split.jpeg);
         height: 15vw;
         width: 15vw;
         background-size: 100%;
     }
     .song-img5{
-        background-image: url(/img/cure.jpeg);
+        background-image: url(../img/cure.jpeg);
         height: 15vw;
         width: 15vw;
         background-size: 100%;
     }
     .song-img6{
-        background-image: url(/img/sinister.jpeg);
+        background-image: url(../img/sinister.jpeg);
         height: 15vw;
         width: 15vw;
         background-size: 100%;
@@ -667,37 +667,37 @@ footer{
         padding-right: 20px;
     }
     .song-img1{
-        background-image: url(/img/metal_lifting.jpg);
+        background-image: url(../img/metal_lifting.jpg);
         height: 15vw;
         width: 15vw;
         background-size: 100%;
     }
     .song-img2{
-        background-image: url(/img/stranger.jpeg);
+        background-image: url(../img/stranger.jpeg);
         height: 15vw;
         width: 15vw;
         background-size: 100%;
     }
     .song-img3{
-        background-image: url(/img/aquietplace.jpeg);
+        background-image: url(../img/aquietplace.jpeg);
         width: 15vw;
         height: 15vw;
         background-size: 100%;
     }
     .song-img4{
-        background-image: url(/img/split.jpeg);
+        background-image: url(../img/split.jpeg);
         height: 15vw;
         width: 15vw;
         background-size: 100%;
     }
     .song-img5{
-        background-image: url(/img/cure.jpeg);
+        background-image: url(../img/cure.jpeg);
         height: 15vw;
         width: 15vw;
         background-size: 100%;
     }
     .song-img6{
-        background-image: url(/img/sinister.jpeg);
+        background-image: url(../img/sinister.jpeg);
         height: 15vw;
         width: 15vw;
         background-size: 100%;
@@ -754,37 +754,37 @@ footer{
         position: relative;
     }
     .song-img1{
-        background-image: url(/img/metal_lifting.jpg);
+        background-image: url(../img/metal_lifting.jpg);
         height: 23vw;
         width: 23vw;
         background-size: 100%;
     }
     .song-img2{
-        background-image: url(/img/stranger.jpeg);
+        background-image: url(../img/stranger.jpeg);
         height: 23vw;
         width: 23vw;
         background-size: 100%;
     }
     .song-img3{
-        background-image: url(/img/aquietplace.jpeg);
+        background-image: url(../img/aquietplace.jpeg);
         width: 23vw;
         height: 23vw;
         background-size: 100%;
     }
     .song-img4{
-        background-image: url(/img/split.jpeg);
+        background-image: url(../img/split.jpeg);
         height: 23vw;
         width: 23vw;
         background-size: 100%;
     }
     .song-img5{
-        background-image: url(/img/cure.jpeg);
+        background-image: url(../img/cure.jpeg);
         height: 23vw;
         width: 23vw;
         background-size: 100%;
     }
     .song-img6{
-        background-image: url(/img/sinister.jpeg);
+        background-image: url(../img/sinister.jpeg);
         height: 23vw;
         width: 23vw;
         background-size: 100%;
@@ -841,37 +841,37 @@ footer{
         position: relative;
     }
     .song-img1{
-        background-image: url(/img/metal_lifting.jpg);
+        background-image: url(../img/metal_lifting.jpg);
         height: 35vw;
         width: 35vw;
         background-size: 100%;
     }
     .song-img2{
-        background-image: url(/img/stranger.jpeg);
+        background-image: url(../img/stranger.jpeg);
         height: 35vw;
         width: 35vw;
         background-size: 100%;
     }
     .song-img3{
-        background-image: url(/img/aquietplace.jpeg);
+        background-image: url(../img/aquietplace.jpeg);
         width: 35vw;
         height: 35vw;
         background-size: 100%;
     }
     .song-img4{
-        background-image: url(/img/split.jpeg);
+        background-image: url(../img/split.jpeg);
         height: 35vw;
         width: 35vw;
         background-size: 100%;
     }
     .song-img5{
-        background-image: url(/img/cure.jpeg);
+        background-image: url(../img/cure.jpeg);
         height: 35vw;
         width: 35vw;
         background-size: 100%;
     }
     .song-img6{
-        background-image: url(/img/sinister.jpeg);
+        background-image: url(../img/sinister.jpeg);
         height: 35vw;
         width: 35vw;
         background-size: 100%;
